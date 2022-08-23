@@ -13,3 +13,4 @@ git pull origin master
 git push -u origin master
 
 git config --global credential.helper 'cache --timeout 86400000'
+php -S 0.0.0.0:8000 -t .
