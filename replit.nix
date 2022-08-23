@@ -6,8 +6,4 @@
         pkgs.php74
         pkgs.bashInteractive
     ];
-
-	deps = [
-		pkgs.php74
-	];
 }
