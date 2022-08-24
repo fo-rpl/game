@@ -11,3 +11,5 @@ git pull --rebase origin master
 git rebase --continue
 git pull origin master
 git push -u origin master
+
+git config --global credential.helper 'cache --timeout 864000'
