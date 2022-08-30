@@ -77,7 +77,7 @@ if (this.readyState == 4 && this.status == 200)
 { var data=JSON.parse(xhttp.responseText);
 data.forEach(function(element)
 { document.getElementById("dataskin").innerHTML +=`
-<br><br><div class="text-center" style="padding: 3px; background:white"><p>Data tambahan skin `+ element.name +` terbaru</p><div class="row" style="justify-content: center"><a href="`+ element.Key +`" class="btn btn-primary py-2 px-3" style="border-radius:5px">Download</a>&nbsp;&nbsp<a href="https://sfile.mobi/Kf4mk1IAYU7" class="btn btn-primary py-2 px-3" style="border-radius:5px">No Skin</a></div></div><br>
+<br><br><div class="text-center" style="padding: 3px; background:white"><p>Data tambahan skin `+ element.name +` terbaru</p><div class="row" style="justify-content: center"><a href="`+ element.key +`" class="btn btn-primary py-2 px-3" style="border-radius:5px">Download</a>&nbsp;&nbsp<a href="https://sfile.mobi/Kf4mk1IAYU7" class="btn btn-primary py-2 px-3" style="border-radius:5px">No Skin</a></div></div><br>
 `; }); } }; 
 
 xhttp.open("GET", "vendor/skin.json", true); xhttp.send(); 
